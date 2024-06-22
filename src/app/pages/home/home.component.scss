@@ -1,0 +1,127 @@
+span {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    overflow: hidden;
+
+    form {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        input[type="text"] {
+            height: 5rem;
+            width: 70%;
+            font-size: 1.8rem;
+            font-weight: 600;
+            padding: 1rem;
+            border-radius: .5rem;
+            border: none;
+            background-color: lightgrey;
+            outline: none;
+        }
+
+        button {
+            height: 5rem;
+            width: 30%;
+            font-size: 2rem;
+            font-weight: 600;
+            border-radius: .5rem;
+            border: none;
+            cursor: pointer;
+            color: white;
+            background-color: rgb(17, 153, 199);
+        }
+    }
+
+    h1 {
+        font-size: 2.6rem;
+        font-weight: 600;
+    }
+}
+
+section {
+    width: 100%;
+    height: calc(100% - 15rem);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #e5e5e5;
+
+    article {
+        width: 100%;
+        height: 100%;
+
+        div {
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 1.2rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    span{
+        form{
+            width: 100%;
+            padding: 1rem;
+        }
+    }
+    section {
+        width: 100%;
+        height: calc(100% - 15rem);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 100%;
+        height: calc(100% - 15rem);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    span{
+        form{
+            input[type="text"]{
+                font-size: 1.6rem;
+            }
+            button{
+                font-size: 1.6rem;
+            }
+        }
+    }
+    section {
+        width: 100%;
+        height: calc(100% - 15rem);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        padding: 1rem;
+    }
+}
+

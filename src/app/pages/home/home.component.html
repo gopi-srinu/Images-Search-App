@@ -1,0 +1,14 @@
+<span>
+    <h1>Image Search App</h1>
+    <form>
+        <input type="text" name="searchQuery" placeholder="Enter your search query" autocomplete="off" [(ngModel)]="imageName">
+        <button (click)="getImagesbyKeywordname(imageName)">Search</button>
+    </form>
+</span>
+<section>
+    <article *ngFor="let image of images().hits">
+        <div *ngIf="isLoaded">
+            <img [src]="image.largeImageURL" [alt]="image.tags">
+        </div>
+    </article>
+</section>
