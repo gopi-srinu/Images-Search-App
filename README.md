@@ -1,27 +1,21 @@
-# ImageSearch
+Image Search App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+Overview
 
-## Development server
+The Image Search App is a web application that allows users to search for images using keywords. The app fetches images from the Pixabay API and displays them in a responsive grid layout. This project is built using Angular for the frontend and leverages the HttpClient module to interact with the Pixabay API.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Technologies Used
 
-## Code scaffolding
+1. Angular
+2. TypeScript
+3. HTML5
+4. CSS3
+5. Pixabay API
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Features
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. User-friendly interface for searching images by keywords.
+2. Responsive design that adapts to various screen sizes.
+3. Fetches images from Pixabay API.
+4. Displays images in a grid layout.
+5. Each image includes an alt text for accessibility.
