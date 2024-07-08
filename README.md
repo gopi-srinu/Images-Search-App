@@ -1,21 +1,43 @@
-Image Search App
 
-Overview
+# Image Search App
 
-The Image Search App is a web application that allows users to search for images using keywords. The app fetches images from the Pixabay API and displays them in a responsive grid layout. This project is built using Angular for the frontend and leverages the HttpClient module to interact with the Pixabay API.
+The image search app allows users to search for photographs by entering a keyword into the app, and the results will be displayed in the app as fast as possible. The program retrieves images from the Pixabay API and displays them in the app.
 
-Technologies Used
 
-1. Angular
-2. TypeScript
-3. HTML5
-4. CSS3
-5. Pixabay API
+## Features
 
-Features
+- A basic user interface for searching photographs using keywords.- A responsive design to adapt to various screen resolutions.
+- Integrated Pixabay API to retrieve photos.
+- Shows photos in a grid style for improved visual appearance.
 
-1. User-friendly interface for searching images by keywords.
-2. Responsive design that adapts to various screen sizes.
-3. Fetches images from Pixabay API.
-4. Displays images in a grid layout.
-5. Each image includes an alt text for accessibility.
+
+## Installation
+
+Clone the repository
+
+```bash
+  git clone https://github.com/gopi-srinu/Images-Search-App.git
+```
+Navigate to the project directory
+```bash
+  cd Images-Search-App
+```
+Install the Dependencies
+```bash
+  npm install
+```
+Run the Application
+```bash
+  ng serve
+```
+
+## Usage
+- Enter a word into the search bar and click the "Search" button to retrieve and display the word's definition via the Dictionary API.
+
+
+## Tech Stack
+
+**Client:** Angular , Typescript , SCSS
+
+**Server:** Pixabay API
+
