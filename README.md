@@ -6,7 +6,8 @@ The image search app allows users to search for photographs by entering a keywor
 
 ## Features
 
-- A basic user interface for searching photographs using keywords.- A responsive design to adapt to various screen resolutions.
+- A basic user interface for searching photographs using keywords.
+- A responsive design to adapt to various screen resolutions.
 - Integrated Pixabay API to retrieve photos.
 - Shows photos in a grid style for improved visual appearance.
 
